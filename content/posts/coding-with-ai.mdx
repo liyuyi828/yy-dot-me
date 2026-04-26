@@ -1,0 +1,35 @@
+---
+title: "Notes on coding with AI"
+description: "What changes, what doesn't, and where I'm still figuring it out."
+date: "2026-04-15"
+tags: ["ai", "software engineering"]
+featured: true
+---
+
+I&rsquo;ve been writing code with AI assistance daily for a while now. A few observations that have held up.
+
+## What changes
+
+**The cost of trying things drops to near zero.** I used to weigh whether a refactor was worth attempting. Now I just try it &mdash; the model writes a draft in a minute and I can read the diff before deciding. The cost of the *exploration* changed, even when the final code is mine.
+
+**The bottleneck moves to taste and review.** Anyone who can read code carefully and articulate what they want is suddenly more productive. Anyone who can&rsquo;t is producing more code, faster, with no idea whether it&rsquo;s right.
+
+## What doesn&rsquo;t change
+
+**Understanding the system still matters.** The model can write a function. It cannot tell you whether that function should exist, or whether it fits the architecture you&rsquo;re going to want in six months. That&rsquo;s still on you.
+
+**Reading is harder than writing.** This was already true. AI just shifts more work onto reading.
+
+```ts
+// Easy to write, easy to miss in review:
+items.forEach((item) => {
+  process(item);
+});
+
+// Was the original loop sequential for a reason?
+// Did `process` have side effects we cared about ordering?
+```
+
+## Where I&rsquo;m still figuring it out
+
+When to *not* use it. There&rsquo;s a class of problems where I learn by struggling, and the AI shortcuts the struggle. I haven&rsquo;t found a clean rule yet. Right now I just notice when I&rsquo;m typing prompts to avoid thinking, and try to stop.
