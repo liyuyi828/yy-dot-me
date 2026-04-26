@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import type { SiteConfig } from "@/types";
 
 export const SITE_CONFIG: SiteConfig = {
-  name: "yy-tell-me-why",
+  name: "yyTellMeWhy",
   title: "yy-dot-me",
   description:
     "Notes on investing and personal finance, software & AI, and self-improvement.",
   url: "https://yy-dot-me.vercel.app",
   author: {
-    name: "yy-tell-me-why",
+    name: "Yuyi Li",
     github: "liyuyi828",
     linkedin: "liyuyi",
   },

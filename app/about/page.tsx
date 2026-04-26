@@ -12,8 +12,8 @@ export default function AboutPage() {
       <h1>About</h1>
       <p>
         {/* TODO: write a real bio */}
-        Hi, I&rsquo;m <strong>yy-tell-me-why</strong>. I write here about three
-        things that occupy most of my thinking:
+        Hi, I&rsquo;m <strong>Yuyi Li</strong>. I write here about three things
+        that occupy most of my thinking:
       </p>
       <ul>
         <li>Investing &amp; personal finance</li>
