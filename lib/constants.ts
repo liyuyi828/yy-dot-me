@@ -7,7 +7,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "TODO Site Title",
   description:
     "Notes on investing and personal finance, software & AI, and self-improvement.",
-  url: "https://example.com",
+  url: "https://yy-dot-me.vercel.app",
   author: {
     name: "TODO Name",
     github: "TODO",
