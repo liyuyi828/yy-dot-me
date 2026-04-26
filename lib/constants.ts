@@ -1,21 +1,20 @@
 import type { Metadata } from "next";
 import type { SiteConfig } from "@/types";
 
-// TODO: fill in real values before launch (name, domain, social handles)
 export const SITE_CONFIG: SiteConfig = {
-  name: "TODO Name",
-  title: "TODO Site Title",
+  name: "yy-tell-me-why",
+  title: "yy-dot-me",
   description:
     "Notes on investing and personal finance, software & AI, and self-improvement.",
   url: "https://yy-dot-me.vercel.app",
   author: {
-    name: "TODO Name",
-    github: "TODO",
-    linkedin: "TODO",
+    name: "yy-tell-me-why",
+    github: "liyuyi828",
+    linkedin: "liyuyi",
   },
   socialLinks: {
-    github: "https://github.com/TODO",
-    linkedin: "https://linkedin.com/in/TODO",
+    github: "https://github.com/liyuyi828",
+    linkedin: "https://www.linkedin.com/in/liyuyi/",
   },
 };
 
