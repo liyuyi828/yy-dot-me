@@ -3,7 +3,7 @@ import type { SiteConfig } from "@/types";
 
 export const SITE_CONFIG: SiteConfig = {
   name: "yyTellMeWhy",
-  title: "yy-dot-me",
+  title: "yyTellMeWhy",
   description:
     "Notes on investing and personal finance, software & AI, and self-improvement.",
   url: "https://yy-dot-me.vercel.app",
