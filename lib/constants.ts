@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "yyTellMeWhy",
   description:
     "Notes on investing and personal finance, software & AI, and self-improvement.",
-  url: "https://yy-dot-me.vercel.app",
+  url: "https://liyuyi.com",
   author: {
     name: "Yuyi Li",
     github: "liyuyi828",
